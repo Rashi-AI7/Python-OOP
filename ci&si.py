@@ -15,7 +15,7 @@ class interCalc:
     
 calc = interCalc(1000, 5, 2)  
 
-print("Simple Interest:", calc.simpInter)   # 1000 * 5 * 2 / 100 = 100
+print("Simple Interest:", calc.simpInter)   
 print("Compound Interest:", calc.compInter) 
 
 calc.principal = 5000
