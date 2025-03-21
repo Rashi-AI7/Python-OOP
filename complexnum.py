@@ -4,7 +4,7 @@ class complexNum:
         self.img = img
 
     def showNumber(self):
-        f"{self.real} + {self.img}j"
+        print(f"{self.real}i + {self.img}j")
 
     def __add__(self, other):
         newReal = self.real + other.real 
