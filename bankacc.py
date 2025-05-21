@@ -20,4 +20,4 @@ print(account.inc_balance())  #4500
 account.withdraw(1000)
 print(account.deduc_balance()) #3500
 
-print(account.__balance())
+# print(account.__balance) will raise en error
