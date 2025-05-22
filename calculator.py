@@ -21,4 +21,4 @@ class Calculator:
 num1 = Calculator(num)
 print(f"The square root is {num1.sqrt(num)}")
 print(f"The square is {num1.square(num)}")
-print(f"The cube is {num1.cube(num)}")
+print(f"The cube is {num1.cube(num)}") 
